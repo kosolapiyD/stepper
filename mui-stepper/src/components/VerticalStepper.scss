@@ -1,0 +1,40 @@
+.vertical-stepper {
+
+    .stepBox {
+        display    : flex;
+        align-items: center;
+
+        .step-label {
+            margin     : 0 10px;
+            font-weight: 500;
+        }
+
+        button {
+            width: auto;
+        }
+    }
+
+    .content-box {
+        border-radius   : 8px;
+        border          : 1px solid #bdbdbd;
+        padding         : 20px;
+        // box-shadow   : rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .MuiStepper-root {
+        align-items: flex-start;
+    }
+
+    .MuiStepContent-root {
+        padding             : 0;
+        padding-inline-start: 8px;
+        margin              : 0;
+        margin-inline-start : 20px;
+        border-right        : 1px solid #bdbdbd;
+        border-left         : none;
+    }
+
+    .MuiStepConnector-root {
+        margin-right: 20px;
+    }
+}

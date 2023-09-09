@@ -1,0 +1,42 @@
+.horizontal-stepper {
+
+    .stepBox {
+        display       : flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .stepBox span {
+        padding-bottom: 5px;
+        font-weight   : 500;
+    }
+
+    span.MuiStepLabel-iconContainer {
+        padding-right: 0;
+    }
+
+    .content-container h2 {
+        text-align: center;
+    }
+
+    .content {
+        border-radius   : 8px;
+        border          : 1px solid #e0e0e0;
+        padding         : 20px;
+        // box-shadow   : rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .content p {
+        animation: fadeIn 1.5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
